@@ -6,7 +6,7 @@
   "homepage": "https://krishnanath.github.io/TRIPWIZ",
   "scripts": {
     "start": "gulp",
-    "deploy": "gh-pages -d src"
+    "deploy": "gh-pages -d ./src"
   },
   "author": "Krishnanath Maly",
   "license": "MIT",
