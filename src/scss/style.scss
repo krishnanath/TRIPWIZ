@@ -51,13 +51,19 @@ header {
   text-align: center;
   color: #ffffff;
 }
+#showcase2 {
+  width: 500px;
+  height: 500px;
+  border-radius: 4px;
+  padding: 50px;
+
+  background: url("/img/image.png") no-repeat;
+}
 #showcase h1 {
   display: flex;
 
   font-size: 50px;
-}
-#showcase h2 {
-  text-decoration: underline;
+  border-bottom: 25px solid white;
 }
 
 #showcase p {

@@ -1,17 +1,22 @@
 {
-  "name": "sass_starter_pack",
+  "name": "TRIPWIZ",
   "version": "1.0.0",
-  "description": "Starter pack using gulp",
+  "description": "Static page",
   "main": "index.js",
+  "homepage": "https://krishnanath.github.io/TRIPWIZ",
   "scripts": {
-    "start": "gulp"
+    "start": "gulp",
+    "deploy": "gh-pages -d src"
   },
-  "author": "Brad Traversy",
-  "license": "ISC",
+  "author": "Krishnanath Maly",
+  "license": "MIT",
   "devDependencies": {
     "browser-sync": "^2.18.13",
     "gulp": "^3.9.1",
     "gulp-autoprefixer": "^5.0.0",
     "gulp-sass": "^3.1.0"
+  },
+  "dependencies": {
+    "gh-pages": "^2.0.1"
   }
 }
