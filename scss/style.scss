@@ -77,18 +77,18 @@ header {
   margin-right: 30px;
 }
 
-#showcase h1 {
-  display: flex;
+// #showcase h1 {
+//   display: flex;
 
-  font-size: 50px;
-}
+//   font-size: 50px;
+// }
 
-#showcase p {
-  text-align: right;
-  float: left;
-  display: flex;
-  position: relative;
-}
+// #showcase p {
+//   text-align: right;
+//   float: left;
+//   display: flex;
+//   position: relative;
+// }
 
 header a {
   color: #000000;
@@ -183,4 +183,34 @@ footer {
     width: 100%;
     margin-bottom: 5px;
   }
+}
+
+.container-flex {
+  display: flex;
+}
+.container-flex div {
+  /* border: 1px #ccc solid; */
+  padding: 5px;
+  width: 50%;
+  height: 300px;
+  margin-top: 100px;
+  margin-left: 60px;
+}
+.box-flex {
+  flex: 1;
+}
+.box-flex2 {
+  flex: 1;
+}
+.offtext {
+  text-align: left;
+  overflow: hidden;
+  text-overflow: clip;
+  font-size: 20px;
+}
+.advtext {
+  font-family: BEBAS NEUE;
+  font-weight: bolder;
+  font-size: 70px;
+  border-bottom: 25px solid white;
 }
