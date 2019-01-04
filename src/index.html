@@ -10,7 +10,43 @@
     />
     <meta name="author" content="Brad Traversy" />
     <title>TRIPWIZ</title>
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
+    />
     <link rel="stylesheet" href="./css/style.css" />
+    <!-- FLEX STYLE -->
+    <style>
+      .container-1 {
+        display: flex;
+      }
+      .container-1 div {
+        /* border: 1px #ccc solid; */
+        padding: 10px;
+        width: 100%;
+        height: 500px;
+        margin-top: 80px;
+        margin-left: 70px;
+      }
+      .box-1 {
+        flex: 2;
+        background: url("https://i.ibb.co/ynzZfVD/image.png");
+        background-repeat: no-repeat;
+        width: 100%;
+        height: 500px;
+        background-position: absolute;
+      }
+      .box-2 {
+        flex: 1.5;
+      }
+      .roboto {
+        font-family: Roboto;
+        font-size: 18px;
+      }
+      .bold {
+        font-weight: bolder;
+      }
+    </style>
   </head>
   <body>
     <header>
@@ -36,8 +72,28 @@
         </p> -->
       </div>
     </section>
+    <!-- <section>
+      <div id="showcase2"></div>
+      <div id="showcase3">hello</div>
+    </section> -->
 
-    <section id="showcase2"></section>
+    <!-- THISFOR FLEX -->
+    <div class="container-1">
+      <div class="box-1"></div>
+      <div class="box-2">
+        <h1 class="bold">HERE WE GO</h1>
+        <p class="roboto">
+          We'll design a complete itinerary for you. From suggesting our
+          favorite places that we are sure you'd love and the sights you
+          shouldn't miss, we are at your service, throughtout. We'll book your
+          accommodation and transpot, and are happy to drive you anywhere you
+          want.
+        </p>
+        <button type="button" class="btn btn-danger btn-lg">
+          CUSTOMIZE MY TRIP
+        </button>
+      </div>
+    </div>
 
     <footer><p>Copyright &copy; 2010 - 2017 TRIPWIZ</p></footer>
   </body>

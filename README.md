@@ -1,12 +1,10 @@
-# Sass Starter Pack
-
-A light package for compiling Sass and running a dev server
+# SurveySparrow Machine Test
 
 ### Version
+
 1.0.0
 
 ## Usage
-
 
 ### Installation
 
