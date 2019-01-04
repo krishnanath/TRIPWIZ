@@ -51,19 +51,36 @@ header {
   text-align: center;
   color: #ffffff;
 }
+
+#container {
+  border-bottom: 25px solid white;
+}
+
 #showcase2 {
   width: 500px;
   height: 500px;
-  border-radius: 4px;
-  padding: 50px;
+
+  display: block;
+  margin-top: 80px;
+  margin-left: 80px;
+  margin-right: auto;
 
   background: url("https://i.ibb.co/ynzZfVD/image.png") no-repeat;
 }
+#showcase3 {
+  width: 500px;
+  height: 500px;
+
+  display: block;
+  margin-top: 80px;
+  margin-left: 80px;
+  margin-right: 30px;
+}
+
 #showcase h1 {
   display: flex;
 
   font-size: 50px;
-  border-bottom: 25px solid white;
 }
 
 #showcase p {
@@ -140,6 +157,12 @@ footer {
   }
 
   /* Showcase */
+
+  .btn-danger {
+    color: #fff;
+    background-color: #df3d39;
+    border-color: #df3d39;
+  }
 
   #showcase h1 {
     margin-top: 40px;
