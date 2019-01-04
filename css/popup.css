@@ -1,0 +1,83 @@
+.modal {
+  display: none;
+  position: fixed;
+  z-index: 1;
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  overflow: auto;
+  /* background-color: rgba(0, 0, 0, 0.5); */
+}
+model-header {
+  background-color: #df3d39;
+  border-bottom: #df3d39;
+}
+.modal-content {
+  margin: 10% auto;
+  width: 90%;
+
+  /* box-shadow: 0 5px 8px 0 rgba(0, 0, 0, 0.2), 0 7px 20px 0 rgba(0, 0, 0, 0.17); */
+  animation-name: modalopen;
+  animation-duration: var(--modal-duration);
+}
+
+.modal-body {
+  padding: 10px 20px;
+  background: #df3d39;
+  height: 500px;
+}
+
+.close {
+  color: #df3d39;
+  float: right;
+  font-size: 30px;
+  color: #df3d39;
+}
+
+.close:hover,
+.close:focus {
+  color: #df3d39;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+/* FlexBox */
+
+.container-1 {
+  display: flex;
+}
+.container-1 div {
+  /* border: 1px #ccc solid; */
+  padding: 10px;
+  width: 100%;
+  height: 500px;
+  margin-top: 80px;
+  margin-left: 70px;
+}
+.box-11 {
+  flex: 1;
+}
+.box-2 {
+  flex: 1;
+}
+
+.popup {
+  font-family: BEBAS NEUE;
+  font-weight: normal;
+  color: white;
+}
+
+.btn-danger {
+  background-color: #9b1f1b;
+}
+/* FlexBox */
+
+@keyframes modalopen {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
